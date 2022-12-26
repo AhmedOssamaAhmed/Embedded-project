@@ -1,0 +1,138 @@
+# ninja log v5
+2	592	6900403470000000	D:/semester 7/embedded/task 5/Task3_B/Debug/BrowseInfo/main.xcl	d6e892baa1682400
+148	292	6896146038855907	D:/semester 7/embedded/task4A/Task3_B/Debug/BrowseInfo/DIO.pbi	9da5207760419d7
+686	868	6918546173314663	D:/semester 7/embedded/task 6/Task3_B/Debug/BrowseInfo/KEYPAD.pbi	25efbc7f5a51fbda
+6	171	6930664090000000	D:/semester 7/embedded/lab 9/Task3_B/Debug/BrowseInfo/calculator.xcl	7ffd6de9b2cc41ba
+14	159	6896146030000000	D:/semester 7/embedded/task4A/Task3_B/Debug/BrowseInfo/main.xcl	b493dd67e28033f8
+826	936	6930664105609537	D:/semester 7/embedded/lab 9/Task3_B/Debug/BrowseInfo/SysTick.pbi	80a6958376e612c8
+10	143	6896146030000000	D:/semester 7/embedded/task4A/Task3_B/Debug/BrowseInfo/DIO.xcl	a64463a15f16f03f
+164	286	6896146038855907	D:/semester 7/embedded/task4A/Task3_B/Debug/BrowseInfo/main.pbi	161684f30af09dff
+295	360	6896146039637099	D:/semester 7/embedded/task4A/Task3_B/Debug/BrowseInfo/Lab3_B.pbd	26d11230cd121c0a
+365	1334	6896146048922212	D:/semester 7/embedded/task4A/Task3_B/Debug/BrowseInfo/Lab3_B.pbw	6f75b81f8e3f9063
+4	123	6918570676583980	D:/semester 7/embedded/task 6 task 2/Task3_B/Debug/BrowseInfo/KEYPAD.pbi	153e7ae143c0fe22
+30	631	6900403470000000	D:/semester 7/embedded/task 5/Task3_B/Debug/BrowseInfo/DIO.xcl	414f2f2bd45ebac
+0	193	6910923745405291	D:/semester 7/embedded/task 5/Task3_B/Debug/BrowseInfo/main.pbi	80964854b1cbbc85
+699	937	6933600298467433	D:/semester 7/embedded/lab 9/Task3_B/Debug/BrowseInfo/Lab3_B.pbd	beb1b845ebab863b
+1	100	6900560770082589	D:/semester 7/embedded/task 5/Task3_B/Debug/BrowseInfo/DIO.pbi	5d79a4ae842024da
+2	153	6933592238104032	D:/semester 7/embedded/lab 9/Task3_B/Debug/BrowseInfo/LCD.pbi	b6cad1badca76539
+148	230	6918553827816846	D:/semester 7/embedded/task 6/Task3_B/Debug/BrowseInfo/Lab3_B.pbd	1e01a8c28db0795e
+197	276	6910923746342878	D:/semester 7/embedded/task 5/Task3_B/Debug/BrowseInfo/Lab3_B.pbd	72742223fd9cc8fc
+281	1243	6910923755560799	D:/semester 7/embedded/task 5/Task3_B/Debug/BrowseInfo/Lab3_B.pbw	176907f7f10e18d5
+440	691	6933600296052793	D:/semester 7/embedded/lab 9/Task3_B/Debug/BrowseInfo/Lab3_B_part2.pbi	eb474a18b9947280
+1	121	6900412180000000	D:/semester 7/embedded/task 5/Task3_B/Debug/BrowseInfo/KEYPAD.xcl	ecc1825293fe9e4e
+1	136	6910923430150152	D:/semester 7/embedded/task 5/Task3_B/Debug/BrowseInfo/KEYPAD.pbi	29b060a318f577e3
+408	587	6932728007080942	D:/semester 7/embedded/lab 9/Task3_B/Debug/BrowseInfo/Lab3_B_part0.pbi	34e8b3e56487d1b5
+4	650	6918546170000000	D:/semester 7/embedded/task 6/Task3_B/Debug/BrowseInfo/KEYPAD.xcl	2ff4ec0352a2348d
+1	151	6918599151451031	D:/semester 7/embedded/task 6 task 2/Task3_B/Debug/BrowseInfo/main.pbi	6aa9a95d887dc2b1
+10	128	6918554550000000	D:/semester 7/embedded/task 6 task 2/Task3_B/Debug/BrowseInfo/main.xcl	1f40303676e599be
+383	536	6936682836573701	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/Lab3_B.pbd	d12c7d865be3ce57
+44	680	6918546170000000	D:/semester 7/embedded/task 6/Task3_B/Debug/BrowseInfo/DIO.xcl	94e4b2e67fd55aaf
+656	773	6918546170000000	D:/semester 7/embedded/task 6/Task3_B/Debug/BrowseInfo/main.xcl	af30711861d8c0ca
+276	1222	6918599161761937	D:/semester 7/embedded/task 6 task 2/Task3_B/Debug/BrowseInfo/Lab3_B.pbw	72216571a9ff7866
+781	934	6918546173939617	D:/semester 7/embedded/task 6/Task3_B/Debug/BrowseInfo/DIO.pbi	2f9763e5c8599dd2
+3	145	6918553826879253	D:/semester 7/embedded/task 6/Task3_B/Debug/BrowseInfo/main.pbi	cc69e55b67b455c7
+2	157	6932475630000000	D:/semester 7/embedded/lab 9/Task3_B/Debug/BrowseInfo/STOPWATCH.xcl	5d3ac412f70073f
+1	471	6918570410000000	D:/semester 7/embedded/task 6 task 2/Task3_B/Debug/BrowseInfo/SysTick.xcl	98a99f7bfba5b676
+298	408	6930664100000000	D:/semester 7/embedded/lab 9/Task3_B/Debug/BrowseInfo/SysTick.xcl	6dbd265a14f8ed12
+235	1246	6918553837503564	D:/semester 7/embedded/task 6/Task3_B/Debug/BrowseInfo/Lab3_B.pbw	4099e8d8113153ff
+4	137	6918554550000000	D:/semester 7/embedded/task 6 task 2/Task3_B/Debug/BrowseInfo/KEYPAD.xcl	69a1297203aa5e89
+135	252	6918554550000000	D:/semester 7/embedded/task 6 task 2/Task3_B/Debug/BrowseInfo/DIO.xcl	99d787a823df3325
+114	209	6918570677365149	D:/semester 7/embedded/task 6 task 2/Task3_B/Debug/BrowseInfo/DIO.pbi	5ed8fb5cb095946c
+121	225	6924152782064777	D:/semester 7/embedded/task 6 lab B/Task3_B/Debug/BrowseInfo/Lab3_B.pbd	1dc4087dce9cb758
+155	269	6918599152580904	D:/semester 7/embedded/task 6 task 2/Task3_B/Debug/BrowseInfo/Lab3_B.pbd	3e3a06b4954429a4
+426	615	6933600295357775	D:/semester 7/embedded/lab 9/Task3_B/Debug/BrowseInfo/Lab3_B_part1.pbi	843e075bb9f4168b
+1	244	6918593451573910	D:/semester 7/embedded/task 6 task 2/Task3_B/Debug/BrowseInfo/SysTick.pbi	50600e58d2ac34ce
+0	185	6918836180000000	D:/semester 7/embedded/task 6 lab B/Task3_B/Debug/BrowseInfo/DIO.xcl	1669e22e69375d46
+5	170	6918836180000000	D:/semester 7/embedded/task 6 lab B/Task3_B/Debug/BrowseInfo/main.xcl	be37ceb7a7607611
+529	645	6933611430000000	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/timer.xcl	14b59b2c2ad2b6a8
+289	399	6930664100000000	D:/semester 7/embedded/lab 9/Task3_B/Debug/BrowseInfo/main.xcl	ec705fa166041b06
+177	325	6918836180000000	D:/semester 7/embedded/task 6 lab B/Task3_B/Debug/BrowseInfo/KEYPAD.xcl	24b1ee9a5f32d30d
+2	2811	6933600392028020	D:/semester 7/embedded/lab 9/Task3_B/Debug/BrowseInfo/Lab3_B.pbw	6a4cc49a74d043c0
+191	417	6918836189899654	D:/semester 7/embedded/task 6 lab B/Task3_B/Debug/BrowseInfo/DIO.pbi	327eb266961eb841
+420	578	6918836191461878	D:/semester 7/embedded/task 6 lab B/Task3_B/Debug/BrowseInfo/KEYPAD.pbi	733425ee2faf9c9f
+1	117	6924152780961141	D:/semester 7/embedded/task 6 lab B/Task3_B/Debug/BrowseInfo/main.pbi	5c15071239aeeac4
+232	1149	6924152791026252	D:/semester 7/embedded/task 6 lab B/Task3_B/Debug/BrowseInfo/Lab3_B.pbw	5c9ca07073397802
+11	160	6930664090000000	D:/semester 7/embedded/lab 9/Task3_B/Debug/BrowseInfo/DIO.xcl	bab21be571ffd8a8
+716	823	6930664104359669	D:/semester 7/embedded/lab 9/Task3_B/Debug/BrowseInfo/DIO.pbi	fe35fb6fc616f135
+168	281	6930664090000000	D:/semester 7/embedded/lab 9/Task3_B/Debug/BrowseInfo/KEYPAD.xcl	5f1ab84afa097379
+14	425	6932727949212509	D:/semester 7/embedded/lab 9/Task3_B/Debug/BrowseInfo/calculator.pbi	fce0c3cfde51e72e
+177	293	6930664090000000	D:/semester 7/embedded/lab 9/Task3_B/Debug/BrowseInfo/LCD.xcl	f1065bbfcec328a3
+405	531	6930664100000000	D:/semester 7/embedded/lab 9/Task3_B/Debug/BrowseInfo/timer.xcl	3441cdf67101d764
+538	646	6930664100000000	D:/semester 7/embedded/lab 9/Task3_B/Debug/BrowseInfo/startup_ewarm.xcl	fbf32c74838f363b
+314	546	6931607889751052	D:/semester 7/embedded/lab 9/Task3_B/Debug/BrowseInfo/KEYPAD.pbi	91362665683087f4
+2	74	6933383330629242	D:/semester 7/embedded/lab 9/Task3_B/Debug/BrowseInfo/startup_ewarm.pbi	dd671f214baed125
+146	272	6933611420000000	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/KEYPAD.xcl	34f71ecdf1c2f331
+4	216	6933591608275017	D:/semester 7/embedded/lab 9/Task3_B/Debug/BrowseInfo/timer.pbi	aff3ca3a7a6c8c8
+4	419	6933600293351309	D:/semester 7/embedded/lab 9/Task3_B/Debug/BrowseInfo/main.pbi	18e4ab21d2dc804d
+3	163	6932469530000000	D:/semester 7/embedded/lab 9/Task3_B/Debug/BrowseInfo/stopwatch.xcl	8e80cd858118acd3
+3	138	6932471961637978	D:/semester 7/embedded/lab 9/Task3_B/Debug/BrowseInfo/stopwatch.pbi	dea20143d602e631
+10	432	6933600293451757	D:/semester 7/embedded/lab 9/Task3_B/Debug/BrowseInfo/STOPWATCH.pbi	bfcd51b0398a3773
+19	131	6933611420000000	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/DIO.xcl	2105085aeab88617
+26	140	6933611420000000	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/calculator.xcl	e8b5310902afd8c9
+137	251	6933611420000000	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/main.xcl	a14c758e7ebbb270
+256	391	6933611420000000	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/LCD.xcl	43a765a1f6ff9fbe
+277	406	6933611420000000	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/startup_ewarm.xcl	b808a3eeef314d39
+397	522	6933611420000000	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/STOPWATCH.xcl	c80bba308857bb0d
+411	534	6933611420000000	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/SysTick.xcl	833c25d1c7a36ed8
+540	683	6933611431089676	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/SysTick.pbi	b16d43731905fcee
+2	112	6933660894365564	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/DIO.pbi	d99daffa0d1618f
+10	264	6935382884924364	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/calculator.pbi	66bcd665c9c7311
+1	171	6935409679831880	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/LCD.pbi	37c44770457fb87f
+2	246	6936682833614686	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/main.pbi	7fbe741e45e7284d
+2	234	6935382884786502	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/KEYPAD.pbi	96f4904d1b985282
+9	73	6935423782949715	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/startup_ewarm.pbi	3b89d15ff3a32375
+65	387	6935404537923357	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/STOPWATCH.pbi	d3b7d5dc6f68e652
+545	658	6935382888919011	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/Lab3_B_part0.pbi	99af51ab856bf9fb
+634	860	6935362632435819	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/timer.pbi	2c767b0837a46726
+251	376	6936682834971502	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/Lab3_B_part1.pbi	85be51e279f97f1c
+392	492	6935404538974153	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/Lab3_B_part2.pbi	d130a104e0d07af0
+543	2171	6936682852335570	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/Lab3_B.pbw	a0f2fd34c87aaa3e
+2	385	6936683721088535	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/main.pbi	7fbe741e45e7284d
+389	509	6936683722358978	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/Lab3_B_part1.pbi	85be51e279f97f1c
+516	666	6936683723934424	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/Lab3_B.pbd	d12c7d865be3ce57
+674	2140	6936683738254179	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/Lab3_B.pbw	a0f2fd34c87aaa3e
+116	1037	6937792451200537	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/main.pbi	7fbe741e45e7284d
+1045	1295	6937792453798902	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/Lab3_B_part1.pbi	85be51e279f97f1c
+1308	1703	6937792457418652	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/Lab3_B.pbd	d12c7d865be3ce57
+1713	4184	6937792482104851	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/Lab3_B.pbw	a0f2fd34c87aaa3e
+6	453	6937799425112660	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/main.pbi	7fbe741e45e7284d
+463	636	6937799426987716	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/Lab3_B_part1.pbi	85be51e279f97f1c
+649	871	6937799429331136	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/Lab3_B.pbd	d12c7d865be3ce57
+3	2912	6937799521210157	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/Lab3_B.pbw	a0f2fd34c87aaa3e
+7	376	6937800542436259	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/main.pbi	7fbe741e45e7284d
+385	599	6937800544730929	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/Lab3_B_part1.pbi	85be51e279f97f1c
+616	858	6937800547380319	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/Lab3_B.pbd	d12c7d865be3ce57
+871	3556	6937800573679485	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/Lab3_B.pbw	a0f2fd34c87aaa3e
+5	480	6937801138275941	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/main.pbi	7fbe741e45e7284d
+487	688	6937801140388918	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/Lab3_B_part1.pbi	85be51e279f97f1c
+698	950	6937801143003175	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/Lab3_B.pbd	d12c7d865be3ce57
+2	2710	6937801225165734	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/Lab3_B.pbw	a0f2fd34c87aaa3e
+2	375	6937802502458670	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/main.pbi	7fbe741e45e7284d
+382	571	6937802504489944	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/Lab3_B_part1.pbi	85be51e279f97f1c
+585	820	6937802506989769	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/Lab3_B.pbd	d12c7d865be3ce57
+833	3059	6937802528706969	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/Lab3_B.pbw	a0f2fd34c87aaa3e
+3	618	6937802586968713	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/main.pbi	7fbe741e45e7284d
+626	916	6937802588687327	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/Lab3_B_part1.pbi	85be51e279f97f1c
+922	1209	6937802592905773	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/Lab3_B.pbd	d12c7d865be3ce57
+1219	5241	6937802632551388	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/Lab3_B.pbw	a0f2fd34c87aaa3e
+7	400	6937803010637403	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/main.pbi	7fbe741e45e7284d
+408	586	6937803012497053	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/Lab3_B_part1.pbi	85be51e279f97f1c
+598	817	6937803014834882	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/Lab3_B.pbd	d12c7d865be3ce57
+829	3129	6937803037278359	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/Lab3_B.pbw	a0f2fd34c87aaa3e
+4	140	6937815348133536	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/Lab3_B_part2.pbi	40c5d68839564a71
+11	196	6937815348656491	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/Lab3_B_part0.pbi	b7ee472a72b5341c
+148	333	6937815350062635	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/Lab3_B_part1.pbi	be00a34070fee98d
+343	587	6937815352562469	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/Lab3_B.pbd	d12c7d865be3ce57
+598	2869	6937815374872390	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/Lab3_B.pbw	a0f2fd34c87aaa3e
+5	412	6937881899195007	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/main.pbi	7fbe741e45e7284d
+417	540	6937881900511163	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/Lab3_B_part1.pbi	be00a34070fee98d
+546	657	6937881901630860	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/Lab3_B.pbd	d12c7d865be3ce57
+664	1934	6937881914011431	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/Lab3_B.pbw	a0f2fd34c87aaa3e
+1	438	6937889671585115	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/main.pbi	7fbe741e45e7284d
+443	535	6937889672556858	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/Lab3_B_part1.pbi	be00a34070fee98d
+541	693	6937889674156717	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/Lab3_B.pbd	d12c7d865be3ce57
+701	1980	6937889686635341	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/Lab3_B.pbw	a0f2fd34c87aaa3e
+6	349	6938012487599226	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/main.pbi	7fbe741e45e7284d
+354	469	6938012488849131	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/Lab3_B_part1.pbi	be00a34070fee98d
+476	601	6938012490098946	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/Lab3_B.pbd	d12c7d865be3ce57
+3	1430	6938012563999972	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/BrowseInfo/Lab3_B.pbw	a0f2fd34c87aaa3e

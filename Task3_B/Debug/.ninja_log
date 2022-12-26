@@ -1,0 +1,45 @@
+# ninja log v5
+5	276	6901535068337435	D:/semester 7/embedded/task 5/Task3_B/Debug/Obj/KEYPAD.o	39211d02682e762f
+347	392	6918551401324261	D:/semester 7/embedded/task 6/Task3_B/Debug/Exe/c.out	a9db2d82b54f0394
+22	480	6918547845614308	D:/semester 7/embedded/task 6/Task3_B/Debug/Obj/KEYPAD.o	9b3b669d81556468
+6	492	6933600268031508	D:/semester 7/embedded/lab 9/Task3_B/Debug/Obj/STOPWATCH.o	e5fffff6f63a80f
+281	329	6901535068967085	D:/semester 7/embedded/task 5/Task3_B/Debug/Exe/c.out	e439bf03fde958cb
+327	795	6901529804960113	D:/semester 7/embedded/task 5/Task3_B/Debug/Obj/DIO.o	bb5d13863c296237
+703	939	6931607844699128	D:/semester 7/embedded/lab 9/Task3_B/Debug/Obj/KEYPAD.o	683696a6646bb570
+0	380	6916218210792074	D:/semester 7/embedded/task 5/Task3_B/Debug/Obj/main.o	b226fb9a2385d240
+4	340	6918551400699478	D:/semester 7/embedded/task 6/Task3_B/Debug/Obj/main.o	e9083b24e7c36607
+458	651	6918547847489181	D:/semester 7/embedded/task 6/Task3_B/Debug/Obj/DIO.o	51b09b37904ed33b
+3	299	6918599148400383	D:/semester 7/embedded/task 6 task 2/Task3_B/Debug/Obj/main.o	81af4653fbd0a86d
+15	470	6918586973078412	D:/semester 7/embedded/task 6 task 2/Task3_B/Debug/Obj/KEYPAD.o	2672e6e841ed8b8a
+475	683	6918586975265741	D:/semester 7/embedded/task 6 task 2/Task3_B/Debug/Obj/DIO.o	d19c24db71625303
+6	360	6918596038660234	D:/semester 7/embedded/task 6 task 2/Task3_B/Debug/Obj/SysTick.o	f9e0cdb520ae90ef
+304	349	6918599149025352	D:/semester 7/embedded/task 6 task 2/Task3_B/Debug/Exe/c.out	a848eb638650b70a
+7	274	6918886862176403	D:/semester 7/embedded/task 6 lab B/Task3_B/Debug/Obj/main.o	5df4569937507d2b
+300	458	6918836161576325	D:/semester 7/embedded/task 6 lab B/Task3_B/Debug/Obj/KEYPAD.o	9f5b21fd42da15f3
+3	338	6933592801765761	D:/semester 7/embedded/lab 9/Task3_B/Debug/Obj/LCD.o	69dabe9a3514dde8
+3	380	6918836160795117	D:/semester 7/embedded/task 6 lab B/Task3_B/Debug/Obj/DIO.o	ea8406c82607354b
+281	343	6918886862946115	D:/semester 7/embedded/task 6 lab B/Task3_B/Debug/Exe/c.out	5e5e05f72f36f546
+8	409	6933592802547119	D:/semester 7/embedded/lab 9/Task3_B/Debug/Obj/timer.o	65e303de17948f1e
+17	204	6935423779898294	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/Obj/startup_ewarm.o	70913066fc2082ad
+608	770	6930664400412677	D:/semester 7/embedded/lab 9/Task3_B/Debug/Obj/SysTick.o	45ec9131091ec981
+6	774	6932727959521293	D:/semester 7/embedded/lab 9/Task3_B/Debug/Obj/calculator.o	ca3cf1128f007d87
+338	556	6930664398225283	D:/semester 7/embedded/lab 9/Task3_B/Debug/Obj/DIO.o	4e2dcc07890f5718
+5	456	6933383243898286	D:/semester 7/embedded/lab 9/Task3_B/Debug/Obj/startup_ewarm.o	6d0203f7a3ec5fe2
+13	437	6933600267875275	D:/semester 7/embedded/lab 9/Task3_B/Debug/Obj/main.o	5fecc698231401c1
+4	853	6937801101748368	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/Obj/main.o	38e5e3d86864f125
+508	744	6933600271000304	D:/semester 7/embedded/lab 9/Task3_B/Debug/Exe/c.out	d2c5984bb1ad656d
+42	411	6935382789261927	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/Obj/KEYPAD.o	1f3a1d9e0d6c70f
+29	394	6935382789261927	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/Obj/calculator.o	7a381029d82bb104
+4	316	6933660858847814	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/Obj/DIO.o	415e86605ce5c009
+14	700	6935404518880827	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/Obj/STOPWATCH.o	2a34a496a0dd2d41
+654	798	6933623059458569	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/Obj/SysTick.o	ad5e50da7b3ab185
+6	419	6935409633547173	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/Obj/LCD.o	692c88e2ff3ba8e8
+887	1179	6935367637192829	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/Obj/timer.o	e7ef4abe23005df6
+866	1050	6937801103779267	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/Exe/c.out	cedefc9a1e5c7198
+6	1148	6937803003013808	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/Obj/main.o	38e5e3d86864f125
+1161	1339	6937803005044875	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/Exe/c.out	cedefc9a1e5c7198
+8	242	6937807635634985	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/Exe/c.out	36d0d960540e08d1
+15	505	6938000621765683	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/Obj/main.o	38e5e3d86864f125
+512	667	6938000623524796	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/Exe/c.out	36d0d960540e08d1
+26	516	6938012455114717	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/Obj/main.o	38e5e3d86864f125
+523	688	6938012456989761	D:/semester 7/embedded/project final insha2allah/Task3_B/Debug/Exe/c.out	36d0d960540e08d1

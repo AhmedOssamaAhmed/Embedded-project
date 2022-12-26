@@ -1,0 +1,100 @@
+##IAR Ninja build file
+
+
+#Rules
+rule COMPILER_XCL
+  command = "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\common\bin\XclFileGenerator.exe" $xclcommand -f "$rspfile_name"
+  description = IAR_NEW_TOOL+++COMPILER_XCL+++$in+++"C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\common\bin\XclFileGenerator.exe" $flags
+  rspfile = $rspfile_name
+  rspfile_content = $flags
+
+rule INDEXER
+  command = "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\common\bin\SourceIndexer.exe" $flags
+  depfile = $out.dep
+  description = IAR_NEW_TOOL+++INDEXER+++$out+++"C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\common\bin\SourceIndexer.exe" $flags
+
+rule MAKEBROWSE
+  command = "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\common\bin\makeBrowseData.exe" $flags
+  description = IAR_NEW_TOOL+++MAKEBROWSE+++$out+++"C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\common\bin\makeBrowseData.exe" $flags
+
+rule PDBLINK
+  command = "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\common\bin\PbdLink.exe" $flags
+  description = IAR_NEW_TOOL+++PDBLINK+++$out+++"C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\common\bin\PbdLink.exe" $flags
+
+
+
+#Build steps
+build D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\DIO.xcl : COMPILER_XCL 
+  xclcommand = -source_file "D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\DIO.c" -xcl_file "D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\DIO.xcl" -macro_file "D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\DIO.tmp" -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\bin\iccarm.exe"
+  flags = "D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\DIO.c" -D ewarmPART_TM4C123GH6PM -D TARGET_IS_TM4C123_RB1 -o "D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\inc\c\DLib_Config_Normal.h" -I D$:\TiVaNeW\ -Ol --predef_macros "D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\DIO.tmp"
+  rspfile_name = D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\DIO.xcl.rsp
+
+build D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\KEYPAD.xcl : COMPILER_XCL 
+  xclcommand = -source_file "D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\KEYPAD.C" -xcl_file "D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\KEYPAD.xcl" -macro_file "D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\KEYPAD.tmp" -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\bin\iccarm.exe"
+  flags = "D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\KEYPAD.C" -D ewarmPART_TM4C123GH6PM -D TARGET_IS_TM4C123_RB1 -o "D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\inc\c\DLib_Config_Normal.h" -I D$:\TiVaNeW\ -Ol --predef_macros "D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\KEYPAD.tmp"
+  rspfile_name = D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\KEYPAD.xcl.rsp
+
+build D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\LCD.xcl : COMPILER_XCL 
+  xclcommand = -source_file "D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\LCD.c" -xcl_file "D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\LCD.xcl" -macro_file "D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\LCD.tmp" -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\bin\iccarm.exe"
+  flags = "D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\LCD.c" -D ewarmPART_TM4C123GH6PM -D TARGET_IS_TM4C123_RB1 -o "D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\inc\c\DLib_Config_Normal.h" -I D$:\TiVaNeW\ -Ol --predef_macros "D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\LCD.tmp"
+  rspfile_name = D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\LCD.xcl.rsp
+
+build D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\main.xcl : COMPILER_XCL 
+  xclcommand = -source_file "D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\main.c" -xcl_file "D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\main.xcl" -macro_file "D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\main.tmp" -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\bin\iccarm.exe"
+  flags = "D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\main.c" -D ewarmPART_TM4C123GH6PM -D TARGET_IS_TM4C123_RB1 -o "D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\inc\c\DLib_Config_Normal.h" -I D$:\TiVaNeW\ -Ol --predef_macros "D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\main.tmp"
+  rspfile_name = D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\main.xcl.rsp
+
+build D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\startup_ewarm.xcl : COMPILER_XCL 
+  xclcommand = -source_file "D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\startup_ewarm.c" -xcl_file "D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\startup_ewarm.xcl" -macro_file "D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\startup_ewarm.tmp" -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\bin\iccarm.exe"
+  flags = "D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\startup_ewarm.c" -D ewarmPART_TM4C123GH6PM -D TARGET_IS_TM4C123_RB1 -o "D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\inc\c\DLib_Config_Normal.h" -I D$:\TiVaNeW\ -Ol --predef_macros "D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\startup_ewarm.tmp"
+  rspfile_name = D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\startup_ewarm.xcl.rsp
+
+build D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\SysTick.xcl : COMPILER_XCL 
+  xclcommand = -source_file "D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\SysTick.c" -xcl_file "D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\SysTick.xcl" -macro_file "D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\SysTick.tmp" -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\bin\iccarm.exe"
+  flags = "D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\SysTick.c" -D ewarmPART_TM4C123GH6PM -D TARGET_IS_TM4C123_RB1 -o "D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\inc\c\DLib_Config_Normal.h" -I D$:\TiVaNeW\ -Ol --predef_macros "D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\SysTick.tmp"
+  rspfile_name = D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\SysTick.xcl.rsp
+
+build D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\DIO.pbi : INDEXER D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\DIO.xcl |  $
+D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\DIO.c
+  flags = "-out=D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\DIO.pbi" -f "D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\DIO.xcl"
+
+build D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\KEYPAD.pbi : INDEXER D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\KEYPAD.xcl |  $
+D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\KEYPAD.C
+  flags = "-out=D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\KEYPAD.pbi" -f "D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\KEYPAD.xcl"
+
+build D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\LCD.pbi : INDEXER D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\LCD.xcl |  $
+D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\LCD.c
+  flags = "-out=D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\LCD.pbi" -f "D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\LCD.xcl"
+
+build D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\main.pbi : INDEXER D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\main.xcl |  $
+D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\main.c
+  flags = "-out=D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\main.pbi" -f "D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\main.xcl"
+
+build D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\startup_ewarm.pbi : INDEXER D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\startup_ewarm.xcl |  $
+D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\startup_ewarm.c
+  flags = "-out=D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\startup_ewarm.pbi" -f "D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\startup_ewarm.xcl"
+
+build D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\SysTick.pbi : INDEXER D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\SysTick.xcl |  $
+D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\SysTick.c
+  flags = "-out=D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\SysTick.pbi" -f "D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\SysTick.xcl"
+
+build D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\Lab3_B.pbw : MAKEBROWSE D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\Lab3_B.pbd
+  flags = "D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\Lab3_B.pbd" -output "D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\Lab3_B.pbw"
+
+build D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\Lab3_B_part0.pbi : PDBLINK D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\DIO.pbi |  $
+D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\KEYPAD.pbi
+  flags = -M "D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\Lab3_B_part0.pbi" "D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\DIO.pbi" "D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\KEYPAD.pbi"
+
+build D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\Lab3_B_part1.pbi : PDBLINK D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\LCD.pbi |  $
+D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\main.pbi
+  flags = -M "D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\Lab3_B_part1.pbi" "D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\LCD.pbi" "D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\main.pbi"
+
+build D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\Lab3_B_part2.pbi : PDBLINK D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\startup_ewarm.pbi |  $
+D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\SysTick.pbi
+  flags = -M "D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\Lab3_B_part2.pbi" "D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\startup_ewarm.pbi" "D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\SysTick.pbi"
+
+build D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\Lab3_B.pbd : PDBLINK D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\Lab3_B_part0.pbi |  $
+D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\Lab3_B_part1.pbi $
+D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\Lab3_B_part2.pbi
+  flags = -M "D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\Lab3_B.pbd" "D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\Lab3_B_part0.pbi" "D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\Lab3_B_part1.pbi" "D$:\semester$ 7\embedded\project$ final$ insha2allah\Task3_B\Debug\BrowseInfo\Lab3_B_part2.pbi"
+
